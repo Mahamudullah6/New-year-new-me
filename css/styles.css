@@ -47,3 +47,47 @@ padding-right: 230px;
     font-weight: 600;
     height: 80px
 }
+/* ................failure-container............. */
+.failure-container{
+    display: flex;
+    gap: 250px;
+    
+}
+.failure-container img{
+    width: 469px;
+    height: 623px;
+    margin-top: 200px;
+    margin-left: 306px;
+    margin-bottom: 200px;
+    border-radius: 50px;
+}
+
+ul li:before {
+    content: '✓'; 
+    color:#16D887;
+    padding-right:5px;
+}
+
+.failure-container ul{
+    list-style: none;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 12px;
+     
+}
+.failure-container h3{
+    color:#151414;
+    margin-top: 330px;
+    font-weight: 700;
+    font-size: 50px;
+    margin-right: 450px;
+}
+.failure-container p{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:26px;
+    width: 416px;
+    height: 104px;
+}
