@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ........banner............. */
+
+.banner-container{
+    /* height: 100vh; */
+    height: 808px;
+    background-image: url(../images/banner/banner1.png);/* linear-gradient(rgba(0, 0, 0, 0.137),rgb(0, 0, 0)); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* color: white; */
+    /* background-blend-mode:overlay; */
+    
+}
+.banner-items{
+
+text-align: right;
+padding-right: 230px;
+/* padding: 216px 230px 364px 845px; */
+    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    padding: 216px 0px 0px 1000px;
+    line-height:76.25px;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height:26px;
+    padding: 24px 0px 0px 1200px;
+}
+
+.contact-us-btn{
+    border-radius: 5px;
+    border: 0;
+    margin-top: 32px;
+    height: 60px;
+    width: 190px;
+    background: rgb(221, 77, 20);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    height: 80px
+}
