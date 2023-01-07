@@ -105,7 +105,7 @@ ul li:before {
     display: flex;
     gap:24px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 .plan{
     /* background: #FFFFFF;
@@ -137,6 +137,23 @@ padding: 30px;
     font-weight: 700;
     font-size: 25px;
 
+}
+/* ........................rewards................ */
+.rewards{
+    text-align: center;
+    margin-bottom: 270px;
+}
+table{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rewards h3{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 50px;
+    
 }
 
 /* ...........call now.............. */
@@ -185,4 +202,66 @@ footer{
     height: 677px;
     background-color: #151414;
     color:white ;
+}
+
+.footer-section{
+    display: flex;
+    color: #ffffff;
+    padding:200px 230px 0px;
+    gap: 550px;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.future-description{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:28px;
+    width: 470px;
+}
+.email{
+    margin: 20px 0px;
+}
+.phone{
+    margin: 20px 0px 30px;
+}
+.images{
+    display: flex;
+    gap: 15px;
+    width: 50px;
+    height: 50px;
+}
+.subscribe-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.input-email{
+    width:350px;
+    height:60px;
+    background-color: #151414;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.subscribe-btn{
+    border-radius: 5px;
+    border: 0;
+    margin-top: 32px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgb(221, 77, 20);
+    font-size: 25px;
+    font-weight: 600;
 }
