@@ -1,41 +1,43 @@
-*{
+* {
     margin: 0%;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* ........banner............. */
 
-.banner-container{
-    /* height: 100vh; */
+.banner-container {
+
     height: 808px;
-    background-image: url(../images/banner/banner1.png);/* linear-gradient(rgba(0, 0, 0, 0.137),rgb(0, 0, 0)); */
+    background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* color: white; */
-    /* background-blend-mode:overlay; */
-    
-}
-.banner-items{
 
-text-align: right;
-padding-right: 230px;
-/* padding: 216px 230px 364px 845px; */
-    
+
 }
-.banner-title{
+
+.banner-items {
+
+    text-align: right;
+    padding-right: 230px;
+
+
+}
+
+.banner-title {
     font-weight: 700;
     font-size: 65px;
     padding: 216px 0px 0px 1000px;
-    line-height:76.25px;
+    line-height: 76.25px;
 }
 
-.banner-description{
+.banner-description {
     font-weight: 400;
     font-size: 16px;
-    line-height:26px;
+    line-height: 26px;
     padding: 24px 0px 0px 1200px;
 }
 
-.contact-us-btn{
+.contact-us-btn {
     border-radius: 5px;
     border: 0;
     margin-top: 32px;
@@ -47,13 +49,15 @@ padding-right: 230px;
     font-weight: 600;
     height: 80px
 }
+
 /* ................failure-container............. */
-.failure-container{
+.failure-container {
     display: flex;
     gap: 250px;
-    
+
 }
-.failure-container img{
+
+.failure-container img {
     width: 469px;
     height: 623px;
     margin-top: 200px;
@@ -63,33 +67,37 @@ padding-right: 230px;
 }
 
 ul li:before {
-    content: '✓'; 
-    color:#16D887;
-    padding-right:5px;
+    content: '✓';
+    color: #16D887;
+    padding-right: 5px;
 }
-.failure-container li{
+
+.failure-container li {
     margin-top: 10px;
 }
-.failure-container ul{
+
+.failure-container ul {
     list-style: none;
     padding-left: 0;
     font-weight: 400;
     font-size: 16px;
     margin-top: 12px;
-     
+
 }
-.failure-container h3{
-    color:#151414;
+
+.failure-container h3 {
+    color: #151414;
     margin-top: 330px;
     font-weight: 700;
     font-size: 50px;
     margin-right: 450px;
 }
-.failure-container p{
+
+.failure-container p {
     margin-top: 30px;
     font-weight: 400;
     font-size: 16px;
-    line-height:26px;
+    line-height: 26px;
     width: 416px;
     height: 104px;
 }
@@ -97,21 +105,20 @@ ul li:before {
 /* ................plans................ */
 
 .plans-section {
-    margin:0px 230px 90px;
+    margin: 0px 230px 90px;
     text-align: center;
 }
 
 .plans-container {
     display: flex;
-    gap:24px;
+    gap: 24px;
     justify-content: center;
     margin-top: 80px;
 }
-.plan{
-    /* background: #FFFFFF;
-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-border-radius: 5px; */
-padding: 30px;
+
+.plan {
+
+    padding: 30px;
 
 }
 
@@ -122,68 +129,74 @@ padding: 30px;
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 20px;
-    color:#151414;
+    color: #151414;
 }
+
 .plan-sub-title {
 
     font-weight: 700;
     font-size: 40px;
-    color:#151414;
+    color: #151414;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.plan-description{
+
+.plan-description {
     color: #757575;
     font-weight: 700;
     font-size: 25px;
 
 }
+
 /* ........................rewards................ */
-.rewards{
+.rewards {
     text-align: center;
     margin-bottom: 270px;
 }
-table{
+
+table {
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
 }
-.rewards h3{
+
+.rewards h3 {
     margin-top: 200px;
     margin-bottom: 100px;
     font-weight: 700;
     font-size: 50px;
-    
+
 }
 
 /* ...........call now.............. */
-.call-now{
-    /* margin: 0px 0px; */
-   background-image: url(../images/watch.png),linear-gradient(to right, rgba(227, 90, 23, 100%) ,rgba(255, 96, 4, 0.08));
-    background-blend-mode:color-burn;
+.call-now {
+
+    background-image: url(../images/watch.png), linear-gradient(to right, rgba(227, 90, 23, 100%), rgba(255, 96, 4, 0.08));
+    background-blend-mode: color-burn;
     color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
-    /* color: white; */
-    /* background-blend-mode:overlay; */
+
     height: 350px;
     border-radius: 10px;
     margin: 0px 230px 90px;
     border-width: 0px;
-    /* padding: 10px; */
+
 }
-.call-now-items{
-    
-     padding: 60px 90px;
+
+.call-now-items {
+
+    padding: 60px 90px;
 }
-.call-now-title{
+
+.call-now-title {
     font-weight: 700;
     font-size: 50px;
     margin-right: 700px;
 
 }
 
-.call-now-btn{
+.call-now-btn {
     border-radius: 5px;
     border: 0;
     margin-top: 32px;
@@ -193,67 +206,74 @@ table{
     color: rgb(221, 77, 20);
     font-size: 25px;
     font-weight: 600;
-    height: 80px    
+    height: 80px
 }
 
 /* .........footer................... */
-footer{
+footer {
     margin-top: 200px;
     height: 677px;
     background-color: #151414;
-    color:white ;
+    color: white;
 }
 
-.footer-section{
+.footer-section {
     display: flex;
     color: #ffffff;
-    padding:200px 230px 0px;
+    padding: 200px 230px 0px;
     gap: 550px;
 }
-.future-title{
+
+.future-title {
     font-weight: 700;
     font-size: 50px;
 }
 
-.future-description{
+.future-description {
     margin-top: 30px;
     font-weight: 400;
     font-size: 16px;
-    line-height:28px;
+    line-height: 28px;
     width: 470px;
 }
-.email{
+
+.email {
     margin: 20px 0px;
 }
-.phone{
+
+.phone {
     margin: 20px 0px 30px;
 }
-.images{
+
+.images {
     display: flex;
     gap: 15px;
     width: 50px;
     height: 50px;
 }
-.subscribe-title{
+
+.subscribe-title {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-.input-email{
-    width:350px;
-    height:60px;
+
+.input-email {
+    width: 350px;
+    height: 60px;
     background-color: #151414;
     border: 2px solid #ccc;
     border-radius: 10px;
 }
-::placeholder{
+
+::placeholder {
     font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
     padding-left: 20px;
 }
 
-.subscribe-btn{
+.subscribe-btn {
     border-radius: 5px;
     border: 0;
     margin-top: 32px;
