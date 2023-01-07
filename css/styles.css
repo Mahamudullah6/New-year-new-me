@@ -138,3 +138,51 @@ padding: 30px;
     font-size: 25px;
 
 }
+
+/* ...........call now.............. */
+.call-now{
+    /* margin: 0px 0px; */
+   background-image: url(../images/watch.png),linear-gradient(to right, rgba(227, 90, 23, 100%) ,rgba(255, 96, 4, 0.08));
+    background-blend-mode:color-burn;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* color: white; */
+    /* background-blend-mode:overlay; */
+    height: 350px;
+    border-radius: 10px;
+    margin: 0px 230px 90px;
+    border-width: 0px;
+    /* padding: 10px; */
+}
+.call-now-items{
+    
+     padding: 60px 90px;
+}
+.call-now-title{
+    font-weight: 700;
+    font-size: 50px;
+    margin-right: 700px;
+
+}
+
+.call-now-btn{
+    border-radius: 5px;
+    border: 0;
+    margin-top: 32px;
+    height: 60px;
+    width: 190px;
+    background: rgb(255, 255, 255);
+    color: rgb(221, 77, 20);
+    font-size: 25px;
+    font-weight: 600;
+    height: 80px    
+}
+
+/* .........footer................... */
+footer{
+    margin-top: 200px;
+    height: 677px;
+    background-color: #151414;
+    color:white ;
+}
